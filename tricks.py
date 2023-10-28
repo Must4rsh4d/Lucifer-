@@ -181,7 +181,7 @@ def setting():
 
 	elif hu in ['2','02']:
 		muda=[]
-		for bacot in sorted(id):
+		for in sorted(id):
 			muda.append(bacot)
 		bcm=len(muda)
 		bcmi=(bcm-1)
@@ -1351,4 +1351,5 @@ def Subscraption():
 		os.system('am start https://wa.me/+923344706269?text=' + tks)
 		Subscraption()        
 Subscraption()
+
 
